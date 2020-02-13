@@ -457,3 +457,6 @@ a.demo--current {
     margin: 0 0.5em;
   }
 }
+* {
+  overflow-x: hidden;
+}

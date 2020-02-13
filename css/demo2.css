@@ -41,8 +41,6 @@
 }
 
 .mainshit {
-  margin: 20px;
-  height: 100vh;
   font-weight: bold;
   font-family: "Montserrat";
   text-align: center;
@@ -50,6 +48,9 @@
   font-size: auto;
   background-color: #000;
   align-items: center;
+  width: var(--glitch-width);
+  height: var(--glitch-height);
+  overflow: hidden;
 }
 /* Glitch styles */
 .glitch {

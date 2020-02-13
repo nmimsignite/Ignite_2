@@ -41,13 +41,14 @@
 }
 
 .mainshit {
+  margin: 20px;
   height: 100vh;
   font-weight: bold;
   font-family: "Montserrat";
   text-align: center;
   padding-top: 50vh;
   font-size: auto;
-  background-color: #000;
+  background-color: #fff;
   align-items: center;
 }
 /* Glitch styles */

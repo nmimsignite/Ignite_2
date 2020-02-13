@@ -422,7 +422,7 @@ a.demo--current {
   .content {
     flex-direction: column;
     height: auto;
-    min-height: 0;
+    min-height: 100vw;
   }
   .content--fixed {
     position: relative;

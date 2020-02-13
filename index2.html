@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A glitch effect using CSS animations and clip-path"
+    />
+    <meta name="keywords" content="glitch, effect, css, animations" />
+    <title>IGNITE 2020</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo2.css" />
+    <link rel="stylesheet" type="text/css" href="css/count.css" />
+    <script>
+      document.documentElement.className = "js";
+      var supportsCssVars = function() {
+        var e,
+          t = document.createElement("style");
+        return (
+          (t.innerHTML = "root: { --tmp-var: bold; }"),
+          document.head.appendChild(t),
+          (e = !!(
+            window.CSS &&
+            window.CSS.supports &&
+            window.CSS.supports("font-weight", "var(--tmp-var)")
+          )),
+          t.parentNode.removeChild(t),
+          e
+        );
+      };
+      supportsCssVars() ||
+        alert(
+          "Please view this demo in a modern browser that supports CSS Variables."
+        );
+    </script>
+  </head>
+
+  <body class="demo-2 loading">
+    <main>
+      <div class="message"></div>
+      <div class="content content--fixed"></div>
+      <div class="content">
+        <div class="glitch">
+          <div class="glitch__img"></div>
+          <div class="glitch__img"></div>
+          <div class="glitch__img"></div>
+          <div class="glitch__img"></div>
+          <div class="glitch__img"></div>
+        </div>
+      </div>
+
+      <!--<div  class="mainshit" id="mainshit">
+			Countdown
+		</div>-->
+      <div class="mainshit" id="mainshit">
+        <h1>Countdown</h1>
+        <ul>
+          <li><span id="days"></span>days</li>
+          <li><span id="hours"></span>Hours</li>
+          <li><span id="minutes"></span>Minutes</li>
+          <li><span id="seconds"></span>Seconds</li>
+        </ul>
+      </div>
+    </main>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/demo.js"></script>
+    <script src="js/count.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script>
+      var controller = new ScrollMagic.Controller();
+
+      // create a scene
+      new ScrollMagic.Scene({
+        duration: 100, // the scene should last for a scroll distance of 100px
+        offset: 50 // start this scene after scrolling for 50px
+      })
+        .setPin("#my-sticky-element") // pins the element for the the scene's duration
+        .addTo(controller); // assign the scene to the controller
+    </script>
+  </body>
+</html>

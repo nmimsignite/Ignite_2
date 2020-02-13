@@ -46,13 +46,14 @@
   font-weight: bold;
   font-family: "Montserrat";
   text-align: center;
-  padding-top: 50vh;
+  padding-top: 30vh;
   font-size: auto;
-  background-color: #fff;
+  background-color: #000;
   align-items: center;
 }
 /* Glitch styles */
 .glitch {
+  display: flex;
   position: absolute;
   top: 0;
   left: 0;
@@ -62,6 +63,7 @@
 }
 
 .glitch__img {
+  display: flex;
   position: absolute;
   top: calc(-1 * var(--gap-vertical));
   left: calc(-1 * var(--gap-horizontal));

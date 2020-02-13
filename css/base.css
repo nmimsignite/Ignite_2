@@ -422,13 +422,14 @@ a.demo--current {
   .content {
     flex-direction: column;
     height: auto;
-    min-height: 100vw;
+    min-height: 150vw;
   }
   .content--fixed {
     position: relative;
     z-index: 1000;
     display: block;
     padding: 0.85em;
+    min-height: 50px;
   }
   .codrops-header {
     flex-direction: column;

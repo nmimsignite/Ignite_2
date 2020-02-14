@@ -25,7 +25,7 @@
 
 .content__title {
   font-size: 11vw;
-  margin: 35px 0 0 0;
+  margin: 35vh 0 0 0;
   position: relative;
   font-family: "Montserrat", cursive;
   color: var(--color-title);
@@ -44,11 +44,12 @@
   font-weight: bold;
   font-family: "Montserrat";
   text-align: center;
+  padding-top: 30vh;
   font-size: auto;
   background-color: #000;
   align-items: center;
-  width: 100vw;
-  height: 35vh;
+  width: var(--glitch-width);
+  height: var(--glitch-height);
   overflow: hidden;
 }
 /* Glitch styles */

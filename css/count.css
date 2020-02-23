@@ -1,13 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-  font-weight: normal;
-}
-
 li {
   display: inline-block;
   font-size: 1.5em;
@@ -23,7 +13,19 @@ li span {
   font-size: 4.5rem;
 }
 
-/* general styling */
+.count-down {
+  font-weight: bold;
+  font-family: "Montserrat";
+  text-align: center;
+  font-size: auto;
+  background-color: green;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+  overflow: hidden;
+}
+
+/* general styling 
 html,
 body {
   height: 100%;

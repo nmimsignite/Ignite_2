@@ -22,7 +22,7 @@
   --blend-color-4: #fb909a;
   --blend-color-5: #1c1cc9;
 }
-
+/*
 .content__title {
   font-size: 11vw;
   margin: 35vh 0 0 0;
@@ -35,22 +35,11 @@
   animation-iteration-count: infinite;
   animation-delay: calc(var(--delay-anim) + var(--time-anim) * 0.2);
 }
-
+*/
 .content {
   text-align: center;
 }
 
-.mainshit {
-  font-weight: bold;
-  font-family: "Montserrat";
-  text-align: center;
-  font-size: auto;
-  background-color: #000;
-  align-items: center;
-  width: var(--glitch-width);
-  height: 50vh;
-  overflow: hidden;
-}
 /* Glitch styles */
 .glitch {
   display: flex;

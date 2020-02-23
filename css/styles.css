@@ -1,0 +1,69 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2f65ef;
+  border-radius: 10px;
+}
+
+.container {
+  margin: 10px;
+  padding: 10vh 10vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: red;
+}
+h1 {
+  text-align: center;
+  background-color: green;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  width: 50%;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(255, 12, 12, 0.2);
+  transition: 0.3s;
+  background: #fff;
+  opacity: 0.9;
+  margin: 1rem;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+}
+
+/* Add some padding inside the card container */
+.contain {
+  padding: 2px 16px;
+}
+
+.card span {
+  color: #2f65ef;
+}

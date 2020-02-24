@@ -11,23 +11,6 @@ section {
   background-color: #000;
 }
 
-/* width */
-::-webkit-scrollbar {
-  width: 6px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 6px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #2f65ef;
-  border-radius: 10px;
-}
-
 .events {
   height: auto;
 }
@@ -69,4 +52,38 @@ h1 {
 
 .card span {
   color: #2f65ef;
+}
+
+.about .header {
+  align-self: center;
+  padding: 2em;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 6px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2f65ef;
+  border-radius: 10px;
+}
+
+.about {
+  background: red;
+}
+
+.sponsors {
+  background: green;
+}
+
+.contact {
+  background: red;
 }

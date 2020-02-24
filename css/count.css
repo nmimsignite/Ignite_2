@@ -10,7 +10,7 @@ li {
 
 li span {
   display: block;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
 }
 
 .count-down {
@@ -23,8 +23,8 @@ li span {
   height: 50vh;
   overflow: hidden;
 }
-
-/* general styling 
+/*
+ general styling 
 html,
 body {
   height: 100%;

@@ -13,6 +13,7 @@ section {
 
 .events {
   height: auto;
+  background: rgb(0, 0, 0);
   background: rgb(31, 0, 82);
   background: -moz-linear-gradient(
     0deg,
@@ -256,7 +257,37 @@ a:visited {
   text-decoration: none;
 }
 
-.insta img,
-.mail img {
-  width: 2em;
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-link img {
+  margin-right: 0.5em;
+  float: left;
+}
+
+.social-media .insta img {
+  width: 5vw;
+  margin-top: 3.5%;
+}
+.social-media .mail img {
+  width: 6vw;
+  margin-top: 4.5%;
+}
+.social-media span {
+  font-size: 5vw;
+}
+
+.mail,
+.insta {
+  display: flex;
+  margin: 1em;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.social-media a:hover {
+  color: #adadad;
 }

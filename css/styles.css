@@ -232,7 +232,7 @@ h1 {
 
 button {
   border-radius: 30px;
-
+  outline: none;
   padding: 20px;
   border: 0px;
   font-weight: 900;

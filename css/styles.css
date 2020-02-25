@@ -226,6 +226,25 @@ h1 {
   /* Create the parallax scrolling effect */
 }
 
+.contact {
+  background: rgb(82, 0, 0);
+  background: -moz-linear-gradient(
+    180deg,
+    rgb(82, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgb(82, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: linear-gradient(180deg, rgb(82, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+  text-align: center;
+  /* Full height */
+  height: 100vh;
+
+  /* Create the parallax scrolling effect */
+}
 .butt {
   text-align: center;
   margin: 2rem;

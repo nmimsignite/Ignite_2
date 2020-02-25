@@ -227,7 +227,9 @@ h1 {
 
 .butt {
   text-align: center;
+  margin: 2rem;
 }
+
 button {
   border-radius: 30px;
 
@@ -245,4 +247,11 @@ button {
   font-weight: 900;
   color: #fff;
   background-color: rgb(40, 0, 148);
+}
+
+a,
+a:hover,
+a:visited {
+  color: inherit;
+  text-decoration: none;
 }

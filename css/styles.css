@@ -227,24 +227,26 @@ h1 {
 }
 
 .contact {
-  background: rgb(82, 0, 0);
+  background: rgb(0, 0, 0);
   height: auto;
+  padding-bottom: 3rem;
+  background: rgb(0, 0, 0);
   background: -moz-linear-gradient(
     180deg,
-    rgb(82, 0, 0) 0%,
-    rgba(0, 0, 0, 1) 100%
+    rgba(0, 0, 0, 1) 0%,
+    rgba(82, 0, 0, 1) 100%
   );
   background: -webkit-linear-gradient(
     180deg,
-    rgb(82, 0, 0) 0%,
-    rgba(0, 0, 0, 1) 100%
+    rgba(0, 0, 0, 1) 0%,
+    rgba(82, 0, 0, 1) 100%
   );
-  background: linear-gradient(180deg, rgb(82, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(82, 0, 0, 1) 100%
+  );
   text-align: center;
-  /* Full height */
-  height: 100vh;
-
-  /* Create the parallax scrolling effect */
 }
 .butt {
   text-align: center;
@@ -289,23 +291,21 @@ a:visited {
 }
 
 .social-media .insta img {
-  width: 5vw;
+  width: 3vw;
   margin-top: 3.5%;
 }
 .social-media .mail img {
-  width: 6vw;
+  width: 3.5vw;
   margin-top: 4.5%;
 }
 .social-media span {
-  font-size: 5vw;
+  font-size: 2.5vw;
 }
 
 .mail,
 .insta {
   display: flex;
-  margin: 1em;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: space-around;
 }
 
 .social-media a:hover {
@@ -370,7 +370,4 @@ a:visited {
 }
 .popup .close:hover {
   color: black;
-}
-
-.content {
 }

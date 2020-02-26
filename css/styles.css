@@ -228,6 +228,7 @@ h1 {
 
 .contact {
   background: rgb(82, 0, 0);
+  height: auto;
   background: -moz-linear-gradient(
     180deg,
     rgb(82, 0, 0) 0%,
@@ -343,7 +344,8 @@ a:visited {
   width: 70vw;
   height: 70vh;
   position: relative;
-  /*<!--transition: all 5s ease-in-out;-- HEY! NO NEED FOR THIS BUT THIS IS A COOL THING CAN USE SOMEWHERE ELSE IN THE CODE TRY IT OUT!--> */
+  /*overflow-y: hidden;
+  <!--transition: all 5s ease-in-out;-- HEY! NO NEED FOR THIS BUT THIS IS A COOL THING CAN USE SOMEWHERE ELSE IN THE CODE TRY IT OUT!--> */
 }
 
 .popup-container {
@@ -368,4 +370,7 @@ a:visited {
 }
 .popup .close:hover {
   color: black;
+}
+
+.content {
 }

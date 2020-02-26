@@ -347,7 +347,12 @@ a:visited {
 .popup {
   margin: 70px;
   border-radius: 30px;
-  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  background-image: linear-gradient(
+    180deg,
+    rgb(48, 48, 48) 0%,
+    #3e5796 40%,
+    #2f65ef 100%
+  );
   width: 70vw;
   height: 70vh;
   position: relative;

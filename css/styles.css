@@ -11,6 +11,7 @@ section {
   background-color: #000;
 }
 
+
 .events {
   height: auto;
   background: rgb(0, 0, 0);
@@ -155,49 +156,25 @@ h1 {
 }
 
 .count-down {
-  background: rgb(0, 0, 0);
-  background: -moz-linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 73, 55, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 73, 55, 1) 100%
-  );
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 73, 55, 1) 100%
-  );
+  background: rgb(0,0,0);
+background: -moz-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(60,73,224,1) 100%);
+background: -webkit-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(60,73,224,1) 100%);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(60,73,224,1) 100%);
   height: auto;
 
   overflow: hidden;
 }
 .ready {
   font-size: 22vw;
-  color: rgb(216, 216, 216);
+  color: rgb(213, 214, 252);
 }
 .about {
   overflow: hidden;
   min-height: 100vh;
-  background: rgb(0, 0, 0);
-  background: -moz-linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 73, 55, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 73, 55, 1) 100%
-  );
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 73, 55, 1) 100%
-  );
+  background: rgb(0,0,0);
+background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(60,73,224,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(60,73,224,1) 100%);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(60,73,224,1) 100%);
 
   font-family: "Quicksand", Arial, Helvetica, sans-serif;
 }

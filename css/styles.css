@@ -345,8 +345,8 @@ a:visited {
 }
 
 .popup {
-  margin: 70px;
-  border-radius: 30px;
+  margin: 50px;
+  border-radius: 20px;
   background-image: linear-gradient(
     180deg,
     rgb(48, 48, 48) 0%,
@@ -360,9 +360,12 @@ a:visited {
   <!--transition: all 5s ease-in-out;-- HEY! NO NEED FOR THIS BUT THIS IS A COOL THING CAN USE SOMEWHERE ELSE IN THE CODE TRY IT OUT!--> */
 }
 
+.popup ::-webkit-scrollbar, ::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb{
+}
+
 .popup-container {
-  margin: 30px;
-  padding: 30px;
+  margin: 5px;
+  padding: 5px;
   color: #000;
 }
 .popup h2 {
@@ -371,13 +374,13 @@ a:visited {
 }
 .popup .close {
   position: absolute;
-  top: 20px;
-  right: 30px;
+  top: -5px;
+  right: -2px;
   transition: all 200ms;
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  color: #333;
+  color: rgb(156, 156, 156);
 }
 .popup .close:hover {
   color: black;
@@ -391,4 +394,11 @@ a:visited {
 
 .popup-container div{
   padding: 1rem;
+}
+
+@media screen and (max-width:400px){
+ .popup{
+  width: 100%;
+  height: auto;
+ }
 }

@@ -302,6 +302,21 @@ a:visited {
   font-size: 2.5vw;
 }
 
+.numbers img {
+  width: 3vw;
+  margin-bottom: 5%;
+}
+.numbers div {
+  display: flex;
+}
+
+.numbers a {
+  font-size: 2vw;
+  display: flex;
+  padding: 0.1em;
+  justify-content: space-around;
+}
+
 .mail,
 .insta {
   display: flex;
@@ -370,4 +385,8 @@ a:visited {
 }
 .popup .close:hover {
   color: black;
+}
+
+.contact {
+  background: linear-gradient(180deg, #000 0%, #bd2a4a 100%);
 }

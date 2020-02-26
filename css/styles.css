@@ -227,25 +227,8 @@ h1 {
 }
 
 .contact {
-  background: rgb(0, 0, 0);
   height: auto;
   padding-bottom: 3rem;
-  background: rgb(0, 0, 0);
-  background: -moz-linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(82, 0, 0, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(82, 0, 0, 1) 100%
-  );
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(82, 0, 0, 1) 100%
-  );
   text-align: center;
 }
 .butt {
@@ -389,4 +372,6 @@ a:visited {
 
 .contact {
   background: linear-gradient(180deg, #000 0%, #bd2a4a 100%);
+  background: -moz-linear-gradient(180deg, #000 0%, #bd2a4a 100%);
+  background: -webkit-linear-gradient(180deg, #000 0%, #bd2a4a 100%);
 }

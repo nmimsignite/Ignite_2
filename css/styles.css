@@ -166,7 +166,7 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(60,73,224,1) 100%);
 }
 .ready {
   font-size: 22vw;
-  color: rgb(213, 214, 252);
+  color: rgb(189, 191, 255);
 }
 .about {
   overflow: hidden;

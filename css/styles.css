@@ -367,7 +367,6 @@ a:visited {
 }
 .popup h2 {
   margin-top: 0;
-  color: #333;
   font-family: Tahoma, Arial, sans-serif;
 }
 .popup .close {
@@ -382,4 +381,14 @@ a:visited {
 }
 .popup .close:hover {
   color: black;
+}
+
+.popup-container .content {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.popup-container div{
+  padding: 1rem;
 }

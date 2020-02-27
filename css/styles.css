@@ -257,6 +257,7 @@ a:visited {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-family: 'Montserrat',Arial, Helvetica, sans-serif;
 }
 
 .social-link img {
@@ -363,10 +364,10 @@ a:visited {
 
 .popup .close {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 2px;
+  right: 2px;
   transition: all 200ms;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
   text-decoration: none;
   color: rgb(0, 0, 0);

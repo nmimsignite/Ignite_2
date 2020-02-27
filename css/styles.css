@@ -310,17 +310,15 @@ a:visited {
   justify-content: space-between;
   margin: 40px;
   flex-wrap: wrap;
-  
 }
 
 .numbers a {
   font-size: 30px;
-  display: flex;
+  display: inline-block;
   padding: 0.1em;
   justify-content: space-evenly;
   margin: 10px;
   flex-wrap: wrap;
-  
 }
 
 .mail,
@@ -466,9 +464,7 @@ h2 {
     background: rgb(0, 0, 0);
     filter: grayscale(100%);
     opacity: 1;
-
     text-transform: capitalize;
-
     margin: 1.5rem;
     padding: 0.5em;
     border-radius: 20px;
@@ -491,6 +487,7 @@ h2 {
     text-align: left !important;
 
   }
+ 
 
 }
 
@@ -503,14 +500,13 @@ h2 {
 
 .about span {
   font-size: 30px !important;
-  margin: 2rem;
+  margin: 1.5rem;
 }
 
 
 .instaIcon{
   float: left;
   font-size: 20px;
-
   margin-right: 5px;
 }
 .phoneIcon{
@@ -530,5 +526,17 @@ h2 {
   .about span {
     font-size: 20px !important;
 
+  }
+
+  .flex1, .flex2{
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width:770px)
+{
+.flex1, .flex2 {
+  width: 50%;
   }
 }

@@ -307,7 +307,10 @@ a:visited {
 
 .mainflex{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 40px;
+  flex-wrap: wrap;
+  
 }
 
 .numbers a {

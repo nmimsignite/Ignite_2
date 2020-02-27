@@ -361,6 +361,7 @@ a:visited {
 }
 
 .popup ::-webkit-scrollbar, ::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb{
+visibility: hidden;
 }
 
 .popup-container {

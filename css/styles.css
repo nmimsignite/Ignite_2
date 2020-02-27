@@ -283,19 +283,21 @@ a:visited {
   margin-right: 0.5em;
   float: left;
 }
+.instaIcon{
+  float: left;
+  font-size: 40px;
 
-.social-media .insta img {
-  width: 3vw;
-  margin-top: 3.5%;
+  margin-right: 5px;
+}
+.phoneIcon{
+  float: left;
+  font-size: 40px;
+
 }
 
-.social-media .mail img {
-  width: 3.5vw;
-  margin-top: 4.5%;
-}
 
 .social-media span {
-  font-size: 2.5vw;
+  font-size: 30px
 }
 
 .numbers img {
@@ -303,15 +305,19 @@ a:visited {
   margin-bottom: 5%;
 }
 
-.numbers div {
+.mainflex{
   display: flex;
+  justify-content: space-around;
 }
 
 .numbers a {
-  font-size: 2vw;
+  font-size: 30px;
   display: flex;
   padding: 0.1em;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  margin: 10px;
+  flex-wrap: wrap;
+  
 }
 
 .mail,

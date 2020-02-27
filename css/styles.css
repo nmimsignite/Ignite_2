@@ -62,6 +62,9 @@ h1 {
 .smalltext{
   text-transform: lowercase !important;
 }
+.titletext{
+  text-transform: capitalize !important;
+}
 .card {
   /* Add shadows to create the "card" effect */
   width: 30%;
@@ -160,39 +163,31 @@ h1 {
 }
 
 .count-down {
-  background: rgb(0, 0, 0);
-  background: -moz-linear-gradient(180deg,
-      rgba(0, 0, 0, 1) 0%,
-      rgba(60, 73, 224, 1) 100%);
-  background: -webkit-linear-gradient(180deg,
-      rgba(0, 0, 0, 1) 0%,
-      rgba(60, 73, 224, 1) 100%);
-  background: linear-gradient(180deg,
-      rgba(0, 0, 0, 1) 0%,
-      rgba(60, 73, 224, 1) 100%);
+  background: rgb(56,38,158);
+background: -moz-linear-gradient(0deg, rgba(56,38,158,1) 0%, rgba(0,0,0,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(56,38,158,1) 0%, rgba(0,0,0,1) 100%);
+background: linear-gradient(0deg, rgba(56,38,158,1) 0%, rgba(0,0,0,1) 100%);
   height: auto;
-
+  overflow-y: hidden;
+}
+.mainshit{
   overflow: hidden;
 }
 
 .ready {
   font-size: 22vw;
   color: rgb(189, 191, 255);
+  
 }
 
 .about {
   overflow: hidden;
   min-height: 100vh;
   background: rgb(0, 0, 0);
-  background: -moz-linear-gradient(0deg,
-      rgba(0, 0, 0, 1) 0%,
-      rgba(60, 73, 224, 1) 100%);
-  background: -webkit-linear-gradient(0deg,
-      rgba(0, 0, 0, 1) 0%,
-      rgba(60, 73, 224, 1) 100%);
-  background: linear-gradient(0deg,
-      rgba(0, 0, 0, 1) 0%,
-      rgba(60, 73, 224, 1) 100%);
+  background: rgb(56,38,158);
+background: -moz-linear-gradient(180deg, rgba(56,38,158,1) 0%, rgba(0,0,0,1) 100%);
+background: -webkit-linear-gradient(180deg, rgba(56,38,158,1) 0%, rgba(0,0,0,1) 100%);
+background: linear-gradient(180deg, rgba(56,38,158,1) 0%, rgba(0,0,0,1) 100%);
 
   font-family: "Quicksand", Arial, Helvetica, sans-serif;
 }
@@ -219,12 +214,11 @@ h1 {
   background: rgb(0, 0, 0);
   height: auto;
   padding-bottom: 3rem;
-  background: rgb(0, 0, 0);
-  background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, #bd2a4a 100%);
-  background: -webkit-linear-gradient(180deg,
-      rgba(0, 0, 0, 1) 0%,
-      #bd2a4a 100%);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, #bd2a4a 100%);
+  background: rgb(12,63,159);
+background: -moz-linear-gradient(0deg, rgba(12,63,159,1) 0%, rgba(0,0,0,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(12,63,159,1) 0%, rgba(0,0,0,1) 100%);
+background: linear-gradient(0deg, rgba(12,63,159,1) 0%, rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c3f9f",endColorstr="#000000",GradientType=1);
   text-align: center;
 }
 
@@ -386,7 +380,7 @@ a:visited {
   display: flex;
   flex-direction: column;
   font-family: 'Montserrat', monospace, Arial, Helvetica, sans-serif;
-  font-size: large;
+  font-size: 30px;
   color: #0f003e;
  
 
@@ -416,6 +410,11 @@ h2{
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
+  }
+  .ready {
+    font-size: 22vw;
+    color: rgb(189, 191, 255);
+    text-align: center;
   }
   .card {
     /* Add shadows to create the "card" effect */

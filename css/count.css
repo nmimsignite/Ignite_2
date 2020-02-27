@@ -10,6 +10,7 @@ li {
   opacity: 1;
 }
 
+
 li span {
   display: block;
   font-size: 3.5rem;
@@ -20,7 +21,7 @@ li span {
   font-family: "Quicksand", Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 2vw;
-  align-items: center;
+  align-items: left;
   width: 100vw;
   height: 70vh;
   overflow: hidden;

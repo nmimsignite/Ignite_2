@@ -64,6 +64,7 @@ h1 {
   text-transform: lowercase !important;
 }
 
+
 .titletext {
   text-transform: capitalize !important;
 }
@@ -117,7 +118,7 @@ h1 {
 /* Add some padding inside the card container */
 .contain {
   padding: 2px 16px;
-  font-family: "Quicksand", Arial, Helvetica, sans-serif;
+  fontmily: "Quicksand", Arial, Helvetica, sans-serif;
   font-size: 4.8vw;
   color: white !important;
 }
@@ -266,10 +267,12 @@ a:visited {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
+
 .logo-containerUnique img {
   max-width: 250px;
   max-height: 150px;
   margin: 3em 2%;
+
 }
 
 .rowUnique {
@@ -292,7 +295,7 @@ a:visited {
 .phoneIcon{
   float: left;
   font-size: 40px;
-
+  margin-right: 0.4em;
 }
 
 
@@ -430,7 +433,7 @@ h2 {
   flex-direction: column;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
   .popup {
     width: 100%;
     height: auto;
@@ -487,8 +490,6 @@ h2 {
     text-align: left !important;
 
   }
- 
-
 }
 
 .about {
@@ -534,7 +535,7 @@ h2 {
 }
 
 
-@media screen and (min-width:770px)
+@media screen and (min-width:800px)
 {
 .flex1, .flex2 {
   width: 50%;

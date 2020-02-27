@@ -432,7 +432,7 @@ h2 {
   flex-direction: column;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:600px) {
   .popup {
     width: 100%;
     height: auto;
@@ -502,7 +502,7 @@ h2 {
 }
 
 .about span {
-  font-size: 40px !important;
+  font-size: 30px !important;
   margin: 2rem;
 }
 

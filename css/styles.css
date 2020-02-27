@@ -405,3 +405,14 @@ visibility: hidden;
   height: auto;
  }
 }
+
+.about{
+  padding: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about span{
+font-size: 2vw;
+margin: 2rem;
+}

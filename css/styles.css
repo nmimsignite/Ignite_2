@@ -59,7 +59,9 @@ h1 {
   margin-bottom: 40px;
   margin-top: 20px;
 }
-
+.smalltext{
+  text-transform: lowercase !important;
+}
 .card {
   /* Add shadows to create the "card" effect */
   width: 30%;
@@ -383,9 +385,10 @@ a:visited {
 .popup-container .content {
   display: flex;
   flex-direction: column;
-  font-family: monospace;
+  font-family: 'Montserrat', monospace, Arial, Helvetica, sans-serif;
   font-size: large;
   color: #0f003e;
+ 
 
 }
 h1{
@@ -413,6 +416,40 @@ h2{
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
+  }
+  .card {
+    /* Add shadows to create the "card" effect */
+    width: 35%;
+    padding: 20px;
+    flex-basis: auto;
+    height: auto;
+    box-shadow: 0 0px 3px 0px rgba(254, 254, 254, 0.774);
+    transition: 0.5s;
+    background: rgb(0, 0, 0);
+    filter: grayscale(100%);
+    opacity: 1;
+  
+    text-transform: capitalize;
+  
+    margin: 1.5rem;
+    padding: 0.5em;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .popup-container .content {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    font-family: 'Montserrat', monospace, Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #0f003e;
+    align-items: flex-start;
+  
+  }
+  .prize{
+    text-align: left !important;
+
   }
   
 }

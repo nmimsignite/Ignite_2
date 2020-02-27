@@ -507,11 +507,28 @@ h2 {
 }
 
 
+.instaIcon{
+  float: left;
+  font-size: 20px;
+
+  margin-right: 5px;
+}
+.phoneIcon{
+  float: left;
+  font-size: 20px !important;
+
+}
+
+
+.social-media span {
+  font-size: 20px !important;
+}
+
+
+
 @media screen and (max-width:768px) {
   .about span {
     font-size: 20px !important;
-
-  }
 
 
 }

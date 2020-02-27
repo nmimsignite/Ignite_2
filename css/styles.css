@@ -59,12 +59,15 @@ h1 {
   margin-bottom: 40px;
   margin-top: 20px;
 }
-.smalltext{
+
+.smalltext {
   text-transform: lowercase !important;
 }
-.titletext{
+
+.titletext {
   text-transform: capitalize !important;
 }
+
 .card {
   /* Add shadows to create the "card" effect */
   width: 30%;
@@ -163,31 +166,32 @@ h1 {
 }
 
 .count-down {
-  background: rgb(56,38,158);
-background: -moz-linear-gradient(0deg, rgba(56,38,158,1) 0%, rgba(0,0,0,1) 100%);
-background: -webkit-linear-gradient(0deg, rgba(56,38,158,1) 0%, rgba(0,0,0,1) 100%);
-background: linear-gradient(0deg, rgba(56,38,158,1) 0%, rgba(0,0,0,1) 100%);
+  background: rgb(56, 38, 158);
+  background: -moz-linear-gradient(0deg, rgba(56, 38, 158, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(56, 38, 158, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  background: linear-gradient(0deg, rgba(56, 38, 158, 1) 0%, rgba(0, 0, 0, 1) 100%);
   height: auto;
   overflow-y: hidden;
 }
-.mainshit{
+
+.mainshit {
   overflow: hidden;
 }
 
 .ready {
   font-size: 22vw;
   color: rgb(189, 191, 255);
-  
+
 }
 
 .about {
   overflow: hidden;
   min-height: 100vh;
   background: rgb(0, 0, 0);
-  background: rgb(56,38,158);
-background: -moz-linear-gradient(180deg, rgba(56,38,158,1) 0%, rgba(0,0,0,1) 100%);
-background: -webkit-linear-gradient(180deg, rgba(56,38,158,1) 0%, rgba(0,0,0,1) 100%);
-background: linear-gradient(180deg, rgba(56,38,158,1) 0%, rgba(0,0,0,1) 100%);
+  background: rgb(56, 38, 158);
+  background: -moz-linear-gradient(180deg, rgba(56, 38, 158, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(56, 38, 158, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  background: linear-gradient(180deg, rgba(56, 38, 158, 1) 0%, rgba(0, 0, 0, 1) 100%);
 
   font-family: "Quicksand", Arial, Helvetica, sans-serif;
 }
@@ -205,7 +209,9 @@ background: linear-gradient(180deg, rgba(56,38,158,1) 0%, rgba(0,0,0,1) 100%);
       rgba(0, 0, 0, 1) 100%);
   text-align: center;
   /* Full height */
-  height: 100vh;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 30px;
 
   /* Create the parallax scrolling effect */
 }
@@ -214,11 +220,11 @@ background: linear-gradient(180deg, rgba(56,38,158,1) 0%, rgba(0,0,0,1) 100%);
   background: rgb(0, 0, 0);
   height: auto;
   padding-bottom: 3rem;
-  background: rgb(12,63,159);
-background: -moz-linear-gradient(0deg, rgba(12,63,159,1) 0%, rgba(0,0,0,1) 100%);
-background: -webkit-linear-gradient(0deg, rgba(12,63,159,1) 0%, rgba(0,0,0,1) 100%);
-background: linear-gradient(0deg, rgba(12,63,159,1) 0%, rgba(0,0,0,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c3f9f",endColorstr="#000000",GradientType=1);
+  background: rgb(12, 63, 159);
+  background: -moz-linear-gradient(0deg, rgba(12, 63, 159, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(12, 63, 159, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  background: linear-gradient(0deg, rgba(12, 63, 159, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c3f9f", endColorstr="#000000", GradientType=1);
   text-align: center;
 }
 
@@ -257,7 +263,20 @@ a:visited {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.logo-containerUnique img {
+  max-width: 250px;
+  max-height: 150px;
+  margin: 3em 2%;
+}
+
+.rowUnique {
+  padding: 1% 8%;
+  margin-bottom: 5%;
+  overflow: hidden;
+  height: auto;
 }
 
 .social-link img {
@@ -383,15 +402,17 @@ a:visited {
   font-family: 'Montserrat', monospace, Arial, Helvetica, sans-serif;
   font-size: 30px;
   color: #0f003e;
- 
+
 
 }
-h1{
-  font-family: 'Quicksand',Arial, Helvetica, sans-serif;
+
+h1 {
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
   font-weight: 900;
 }
-h2{
-  font-family: 'Quicksand',Arial, Helvetica, sans-serif !important;
+
+h2 {
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif !important;
   font-weight: 900;
 
 }
@@ -407,16 +428,24 @@ h2{
     width: 100%;
     height: auto;
   }
+  .logo-containerUnique img {
+    max-width: 150px;
+    max-height: 150px;
+    margin: 2em 2%;
+  }
+
   .popup-container div {
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
   }
+
   .ready {
     font-size: 22vw;
     color: rgb(189, 191, 255);
     text-align: center;
   }
+
   .card {
     /* Add shadows to create the "card" effect */
     width: 35%;
@@ -428,15 +457,16 @@ h2{
     background: rgb(0, 0, 0);
     filter: grayscale(100%);
     opacity: 1;
-  
+
     text-transform: capitalize;
-  
+
     margin: 1.5rem;
     padding: 0.5em;
     border-radius: 20px;
     text-align: center;
     cursor: pointer;
   }
+
   .popup-container .content {
     display: flex;
     text-align: left;
@@ -445,13 +475,14 @@ h2{
     font-size: large;
     color: #0f003e;
     align-items: flex-start;
-  
+
   }
-  .prize{
+
+  .prize {
     text-align: left !important;
 
   }
-  
+
 }
 
 .about {
@@ -467,11 +498,11 @@ h2{
 }
 
 
-@media screen and  (max-width:768px) {
-	.about span {
+@media screen and (max-width:768px) {
+  .about span {
     font-size: 20px !important;
 
   }
-  
-	
+
+
 }

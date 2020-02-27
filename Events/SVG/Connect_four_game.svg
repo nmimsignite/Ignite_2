@@ -1,0 +1,62 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="350" height="300" viewBox="0 0 350 300" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+	<circle id="empty" cx=".5" cy=".5" r=".4" style="fill:#d7d7d7;stroke:black;stroke-width:.05;" />
+	<circle id="yellow" cx=".5" cy=".5" r=".4" style="fill:#e7e700;stroke:black;stroke-width:.05;" />
+	<circle id="green" cx=".5" cy=".5" r=".4" style="fill:#ee0000;stroke:black;stroke-width:.05;" />
+	
+</defs>
+<g transform="scale(50,50) translate(-1,-1)">
+<rect x="0" y="0" width="8" height="7" fill="#a08c64" />
+
+	<use xlink:href="#empty" x="1" y="1"/>
+	<use xlink:href="#empty" x="2" y="1"/>
+	<use xlink:href="#empty" x="3" y="1"/>
+	<use xlink:href="#empty" x="4" y="1"/>
+	<use xlink:href="#empty" x="5" y="1"/>
+	<use xlink:href="#empty" x="6" y="1"/>
+	<use xlink:href="#empty" x="7" y="1"/>
+	
+	<use xlink:href="#empty" x="1" y="2"/>
+	<use xlink:href="#empty" x="2" y="2"/>
+	<use xlink:href="#green" x="3" y="2"/>
+	<use xlink:href="#yellow" x="4" y="2"/>
+	<use xlink:href="#empty" x="5" y="2"/>
+	<use xlink:href="#empty" x="6" y="2"/>
+	<use xlink:href="#empty" x="7" y="2"/>
+	
+	<use xlink:href="#empty" x="1" y="3"/>
+	<use xlink:href="#empty" x="2" y="3"/>
+	<use xlink:href="#yellow" x="3" y="3"/>
+	<use xlink:href="#yellow" x="4" y="3"/>
+	<use xlink:href="#yellow" x="5" y="3"/>
+	<use xlink:href="#green" x="6" y="3"/>
+	<use xlink:href="#empty" x="7" y="3"/>
+	
+	<use xlink:href="#empty" x="1" y="4"/>
+	<use xlink:href="#empty" x="2" y="4"/>
+	<use xlink:href="#green" x="3" y="4"/>
+	<use xlink:href="#green" x="4" y="4"/>
+	<use xlink:href="#yellow" x="5" y="4"/>
+	<use xlink:href="#yellow" x="6" y="4"/>
+	<use xlink:href="#empty" x="7" y="4"/>
+	
+	<use xlink:href="#empty" x="1" y="5"/>
+	<use xlink:href="#empty" x="2" y="5"/>
+	<use xlink:href="#green" x="3" y="5"/>
+	<use xlink:href="#yellow" x="4" y="5"/>
+	<use xlink:href="#green" x="5" y="5"/>
+	<use xlink:href="#yellow" x="6" y="5"/>
+	<use xlink:href="#empty" x="7" y="5"/>
+	
+	<use xlink:href="#empty" x="1" y="6"/>
+	<use xlink:href="#yellow" x="2" y="6"/>
+	<use xlink:href="#green" x="3" y="6"/>
+	<use xlink:href="#green" x="4" y="6"/>
+	<use xlink:href="#green" x="5" y="6"/>
+	<use xlink:href="#yellow" x="6" y="6"/>
+	<use xlink:href="#green" x="7" y="6"/>
+</g>	
+
+</svg>

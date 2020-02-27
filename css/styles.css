@@ -393,8 +393,8 @@ a:visited {
 
 .popup .close {
   position: absolute;
-  top: 2px;
-  right: 2px;
+  top: 0px;
+  right: 0px;
   transition: all 200ms;
   font-size: 50px;
   font-weight: bold;

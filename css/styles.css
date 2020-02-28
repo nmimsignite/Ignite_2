@@ -253,22 +253,6 @@ button {
   color: #fff;
   background-color: rgb(40, 0, 148);
 }
-
-a,
-a:hover,
-a:visited {
-  color: inherit;
-  text-decoration: none;
-}
-
-.social-media {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-}
-
-
 .logo-containerUnique img {
   max-width: 250px;
   max-height: 150px;
@@ -281,6 +265,27 @@ a:visited {
   margin-bottom: 5%;
   overflow: hidden;
   height: auto;
+}
+a,
+a:hover,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.mainflex{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+  flex-wrap: wrap;
+}
+
+.social-media, .numbers{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
 .social-link img {
@@ -304,26 +309,11 @@ a:visited {
   font-size: 30px
 }
 
-.numbers img {
-  width: 3vw;
-  margin-bottom: 5%;
-}
 
-.mainflex{
-  display: inline-block;
-  justify-content: space-between;
-  margin: 40px;
-  flex-wrap: wrap;
-}
 
-.numbers a {
-  font-size: 30px;
-  display: flex;
-  padding: 0.1em;
-  justify-content: space-evenly;
-  margin: 10px;
-  flex-wrap: wrap;
-}
+
+
+
 
 .mail,
 .insta {

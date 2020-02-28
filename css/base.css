@@ -126,7 +126,7 @@ select {
   text-transform: none;
 }
 button,
-html input[type="button"],
+html input[type="card_button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;

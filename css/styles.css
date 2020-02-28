@@ -238,8 +238,13 @@ h1 {
 button {
   border-radius: 30vw;
   outline: none;
+<<<<<<< HEAD
   padding: 20px;
   font-size: 20px;
+=======
+  padding: 2vw;
+  font-size: 2vw;
+>>>>>>> 05279d228c1b298d2da243b17fdabce3391eedd8
   border: 0px;
   font-weight: 900;
   color: #000;
@@ -514,6 +519,11 @@ h2 {
     .about span {
       font-size: 20px !important;
   
+    }
+
+    button{
+      padding: 3vw;
+      font-size: 3vw;
     }
 }
 

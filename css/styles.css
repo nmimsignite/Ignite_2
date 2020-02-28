@@ -310,7 +310,7 @@ a:visited {
 }
 
 .mainflex{
-  display: flex;
+  display: inline-block;
   justify-content: space-between;
   margin: 40px;
   flex-wrap: wrap;
@@ -318,7 +318,7 @@ a:visited {
 
 .numbers a {
   font-size: 30px;
-  display: inline-block;
+  display: flex;
   padding: 0.1em;
   justify-content: space-evenly;
   margin: 10px;
@@ -525,7 +525,7 @@ h2 {
 }
 
 
-.social-media span {
+.social-media span, .numbers span {
   font-size: 20px !important;
 }
 
@@ -540,6 +540,7 @@ h2 {
   .flex1, .flex2{
     width: 100%;
   }
+  
 }
 
 

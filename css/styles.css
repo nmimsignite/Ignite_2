@@ -250,7 +250,7 @@ button {
   border-radius: 30px;
   padding: 20px;
   border: 0px;
-  font-weight: 900;
+  font-weight: 900 !important;
   color: #fff;
   background-color: rgb(40, 0, 148);
 }

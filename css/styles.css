@@ -288,37 +288,23 @@ a:visited {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
-.social-link img {
-  margin-right: 0.5em;
-  float: left;
-}
-.instaIcon{
-  float: left;
+.social-link img , .numbers img{
+  margin-right: 1em;
   font-size: 40px;
-
-  margin-right: 5px;
-}
-.phoneIcon{
   float: left;
-  font-size: 40px;
-  margin-right: 0.4em;
 }
-
-
-.social-media span {
-  font-size: 30px
-}
-
-
-
-
-
-
 
 .mail,
-.insta {
+.insta,
+.numbers li {
   display: flex;
   justify-content: space-around;
+}
+
+
+.numbers a {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .social-media a:hover {
@@ -423,6 +409,39 @@ h2 {
   display: flex;
   flex-direction: column;
 }
+.about {
+  padding: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about span {
+  font-size: 30px !important;
+  margin: 1.5rem;
+}
+
+
+.instaIcon{
+  float: left;
+  font-size: 20px;
+  margin-right: 5px;
+}
+.phoneIcon{
+  float: left;
+  margin-right: 0.5em;
+  font-size: 20px !important;
+
+}
+
+
+.social-media span, .numbers span {
+  font-size: 20px !important;
+}
+
+
+
+
 
 @media screen and (max-width:800px) {
   .popup {
@@ -488,38 +507,11 @@ h2 {
     text-align: left !important;
 
   }
+  .flex1, .flex2 {
+    width: 50%;
+    }
+  
 }
-
-.about {
-  padding: 5vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.about span {
-  font-size: 30px !important;
-  margin: 1.5rem;
-}
-
-
-.instaIcon{
-  float: left;
-  font-size: 20px;
-  margin-right: 5px;
-}
-.phoneIcon{
-  float: left;
-  font-size: 20px !important;
-
-}
-
-
-.social-media span, .numbers span {
-  font-size: 20px !important;
-}
-
-
 
 @media screen and (max-width:768px) {
   .about span {
@@ -534,9 +526,8 @@ h2 {
 }
 
 
-@media screen and (min-width:800px)
-{
-.flex1, .flex2 {
-  width: 50%;
+@media screen and (min-width: 450px){
+  .mainflex span {
+    font-size: 0.1em;
   }
 }

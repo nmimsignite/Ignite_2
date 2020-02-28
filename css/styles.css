@@ -508,26 +508,18 @@ h2 {
 
   }
   .flex1, .flex2 {
-    width: 50%;
-    }
-  
-}
-
-@media screen and (max-width:768px) {
-  .about span {
-    font-size: 20px !important;
-
-  }
-
-  .flex1, .flex2{
     width: 100%;
-  }
+    }
+    .about span {
+      font-size: 20px !important;
   
+    }
 }
 
-
-@media screen and (min-width: 450px){
-  .mainflex span {
-    font-size: 0.1em;
+@media screen and (min-width:800px)
+{
+  
+  .flex1, .flex2{
+    width: 50%;
   }
 }
